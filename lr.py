@@ -261,12 +261,6 @@ class SQLTable:
         print(f"Imported from {file_name}")
 
                 # использование
-db_config = {
-    'host': "srv221-h-st.jino.ru",
-    'database': "j30084097_137",
-    'user': "j30084097_137",
-    'password': "Gruppa137"}
-
 # создание таблицы
 films_table = SQLTable(db_config, 'films')
 films_table.create_table(columns= {
